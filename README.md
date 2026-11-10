@@ -1,17 +1,27 @@
-# Kit em dia
+# Emergency Kit
 
-Lista de compras simples para emergências, em português, feita apenas com HTML, CSS e JavaScript.
+A public emergency shopping guide built with HTML, CSS, and JavaScript. The interface is in Brazilian Portuguese; source identifiers and documentation are in English.
 
-Inclui 15 itens, links de busca no Mercado Livre, Amazon e Shopee, filtros, busca, impressão e checklist salvo no navegador.
+## Features
 
-## GitHub Pages
+- 19 products grouped by category, including 10 links curated by Rute.
+- Direct recommendations labeled "Rute recomenda" in the interface.
+- Marketplace search links for Mercado Livre, Amazon Brazil, and Shopee.
+- Accent-insensitive search, category filters, and a printable layout.
+- No checklist, personal progress, browser storage, backend, or build dependencies.
 
-Em Settings > Pages, selecione Deploy from a branch, branch main e pasta / (root), depois Save.
+## Development
 
-Endereço esperado após ativar: https://rutecintra.github.io/emergency-kit/
+Open index.html directly in a browser or serve the directory with a static HTTP server.
 
-## Uso local
+## Deployment
 
-Abra index.html no navegador. Não há dependências nem etapa de build.
+GitHub Pages publishes the main branch from the repository root. Updates to index.html deploy automatically.
 
-Referência dos itens: https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal
+Live site: https://rutecintra.github.io/emergency-kit/
+
+## Content
+
+Curated URLs are supplied by Rute. Recommendations reflect her selections; product availability and specifications are not verified by this project. Personal protection products appear under their own category. Portuguese marketplace queries are localized user-facing content.
+
+General preparedness reference: https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal
